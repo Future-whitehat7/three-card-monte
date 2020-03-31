@@ -1,28 +1,38 @@
 
 
 body {
-	background-color: black;
+ background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 h1.title {
-	font-size: 80px;
+	font-size: 50px;
 	font-family: 'Diplomata SC', cursive;
 	color: burlywood;
 	text-align: center;
 	margin: 30px;
 	text-shadow: 2px 2px #999;
 }
+
+p.title {
+	font-size: 20px;
+	font-family: 'Diplomata SC', cursive;
+	color: white;
+	text-align: center;
+	margin: 30px;
+	text-shadow: 2px 2px #999;
+}
 h1.text-reveal{
-	font-size: 80px;
+	font-size: 50px;
 	font-family: 'Amatic SC', cursive;
 	color: white;
 	margin: 50vh;
 }
 h2.score {
-	font-size: 50px;
+	font-size: 30px;
 	font-family: 'Amatic SC', cursive;
 	color: burlywood;
 	text-align: center;
-	margin: 30px;
+	/* margin: 30px; */
+	padding: 20px 0 ;
 	
 }
 
@@ -36,9 +46,10 @@ h2.score {
 .btn {
 	margin-top: 30px;
 	margin-right: 100px;
-	background-color: burlywood;
+	/* background-color: burlywood; */
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 	border-color: black;
-	color: black;
+	color: rgb(14, 17, 231);
 	font-size: 30px;
 	font-family: 'Amatic SC', cursive;
 	float: left;
